@@ -1,0 +1,4763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>IntelliFactory.WebSharper.JQueryUI</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Accordion.Widget">
+<summary>
+ Returns the .ui-accordion element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Refresh">
+<summary>
+ Recompute heights of the accordion contents when using the fillSpace
+ option and the container height changed. For example, when the container
+ is a resizable, this method should be called by its resize-event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Option(IntelliFactory.WebSharper.JQueryUI.AccordionConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Option(System.String)">
+<summary>
+ Gets or sets any accordion option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Option(System.String,System.Object)">
+<summary>
+ Gets or sets any accordion option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.AccordionCreateEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ This event is triggered when accordion is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.OnBeforeActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.AccordionChangeEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered every time the accordion changes.
+ If the accordion is animated, the event will be triggered
+ upon completion of the animation; otherwise,
+ it is triggered immediately.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.OnActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.AccordionChangeEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered every time the accordion starts to change.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.New(Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,IntelliFactory.WebSharper.Html.Element}})">
+<summary>
+ Create an accordion with default configuration settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.New(Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,IntelliFactory.WebSharper.Html.Element}},IntelliFactory.WebSharper.JQueryUI.AccordionConfiguration)">
+<summary>
+ Create an accordion with title and content panels according to the
+ given list of name and value pairs.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Enable">
+<summary>
+ Enables the accordion.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Disable">
+<summary>
+ Disable the accordion.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Destroy">
+<summary>
+ Remove the accordion functionality completely.
+ This will return the element back to its pre-init state.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Activate(System.Boolean)">
+<summary>
+ Pass false to close all content parts (only possible with collapsible=true).
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Accordion.Activate(System.Int32)">
+<summary>
+ Activate a content part of the accordion with the
+ corresponding zero-based index.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.onChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ After an item was selected; ui.item refers to the selected item.
+ Always triggered after the close event
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Widget">
+<summary>
+ Returns the .ui-autocomplete element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Search(System.String)">
+<summary>
+ Triggers a search event using the given string value, which, when data is
+ available, then will display the suggestions;
+ can be used by a selectbox-like button to open the suggestions when clicked.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Search">
+<summary>
+ Triggers a search event using the current string value, which, when data is available,
+ then will display the suggestions;
+ can be used by a selectbox-like button to open the suggestions when clicked.
+ The current input&apos;s value is used.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Option(IntelliFactory.WebSharper.JQueryUI.AutocompleteConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Option(System.String)">
+<summary>
+ Get or set any autocomplete option. If no value is specified, will act as a getter.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Option(System.String,System.Object)">
+<summary>
+ Get or set any autocomplete option. If no value is specified, will act as a getter.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnSelect(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Tiggered when an item is selected from the menu;
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnSearch(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before a request (source-option) is started.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnResponse(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.AutocompleteItem[],Microsoft.FSharp.Core.Unit}})">
+<summary>
+ This event is triggered when autocomplete is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnOpen(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the list is opened.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnFocus(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Before focus is moved to an item (not selecting), ui.item refers to the focused item.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ This event is triggered when autocomplete is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnClose(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the list is hidden.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.OnChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ After an item was selected. Always triggered after the close event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.New(IntelliFactory.WebSharper.JQueryUI.AutocompleteConfiguration)">
+<summary>
+ Creates an autocomplete widget from an input element using
+ the given configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.New">
+<summary>
+ Creates an autocomplete widget from an input element using
+ the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates an autocomplete widget from the given element and
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.AutocompleteConfiguration)">
+<summary>
+ Creates an autocomplete widget from the given element and
+ configuration object.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Disable">
+<summary>
+ Disables the autocomplete.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Destroy">
+<summary>
+ Remove the autocomplete functionality completely.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Autocomplete.Close">
+<summary>
+ Close the Autocomplete menu. Useful in combination with
+ the search method, to close the open menu.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Button.Widget">
+<summary>
+ Returns the .ui-button element.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Button.IsEnabled">
+<summary>
+ Returns weather button is enabled or not.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Refresh(System.Int32)">
+<summary>
+ Refreshes the visual state of the button.
+ Useful for updating button state after the native element&apos;s checked or disabled state
+ is changed programatically.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Option(IntelliFactory.WebSharper.JQueryUI.ButtonConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Option(System.String)">
+<summary>
+ Get any button option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Option(System.String,System.Object)">
+<summary>
+ Set any button option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ This event is triggered when button is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.OnClick(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Events.MouseEvent,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the button is clicked.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.New(System.String)">
+<summary>
+ Creates a new button with the given label and
+ using the default configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.New(IntelliFactory.WebSharper.JQueryUI.ButtonConfiguration)">
+<summary>
+ Creates a new button given a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.New(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,IntelliFactory.WebSharper.Html.Element},IntelliFactory.WebSharper.JQueryUI.ButtonConfiguration)">
+<summary>
+ Creates a new button given an element and a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.ButtonConfiguration)">
+<summary>
+ Creates a new button given an element and a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Enable">
+<summary>
+ Enables the button.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Disable">
+<summary>
+ Disables the button.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Button.Destroy">
+<summary>
+ Removes the button functionality completely.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Datepicker.Widget">
+<summary>
+ Returns the .ui-datepicker element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Show">
+<summary>
+ Shows the datepicker.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.SetDate(IntelliFactory.WebSharper.EcmaScript.Date)">
+<summary>
+ Sets the selected date.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.SetDate(System.String)">
+<summary>
+ Sets the selected date.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Refresh">
+<summary>
+ Redraw a date picker, after having made some external modifications.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Option(IntelliFactory.WebSharper.JQueryUI.DatepickerConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Option(System.String)">
+<summary>
+ Get a datepicker option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Option(System.String,System.Object)">
+<summary>
+ Set a datepicker option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.OnSelect(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.EcmaScript.Date,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.Datepicker,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Triggered when a date is selected.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.New">
+<summary>
+ Creates a new datepicker using an empty Div element and
+ the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.New(IntelliFactory.WebSharper.JQueryUI.DatepickerConfiguration)">
+<summary>
+ Creates a new datepicker using an empty Div element and
+ the given configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new datepicker given an element, using the default
+ configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.DatepickerConfiguration)">
+<summary>
+ Creates a new datepicker given an element and a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.IsDisabled">
+<summary>
+ Returns true or false wether the datepicker is disabled.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Hide">
+<summary>
+ Hides the datepicker.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.GetDate">
+<summary>
+ Get the currently selected date of the datepicker.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Enable">
+<summary>
+ Enables the datepicker functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Disable">
+<summary>
+ Disables the datepicker functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Dialog(IntelliFactory.WebSharper.EcmaScript.Date)">
+<summary>
+ Open a datepicker in a &quot;dialog&quot; box.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Dialog(IntelliFactory.WebSharper.EcmaScript.Date,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.Datepicker,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Open a datepicker in a &quot;dialog&quot; box.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Dialog(IntelliFactory.WebSharper.EcmaScript.Date,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.Datepicker,Microsoft.FSharp.Core.Unit}},IntelliFactory.WebSharper.JQueryUI.DatepickerConfiguration)">
+<summary>
+ Open a datepicker in a &quot;dialog&quot; box.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Dialog(IntelliFactory.WebSharper.EcmaScript.Date,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.Datepicker,Microsoft.FSharp.Core.Unit}},IntelliFactory.WebSharper.JQueryUI.DatepickerConfiguration,System.Tuple{System.Int32,System.Int32})">
+<summary>
+ Open a datepicker in a &quot;dialog&quot; box.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Datepicker.Destroy">
+<summary>
+ Destroys the datepicker functionality.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Dialog.Widget">
+<summary>
+ Returns the .ui-dialog element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Option(IntelliFactory.WebSharper.JQueryUI.DialogConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Option(System.String)">
+<summary>
+ Gets dialog option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Option(System.String,System.Object)">
+<summary>
+ Sets dialog option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Open">
+<summary>
+ Open the dialog.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnResizeStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered after the dialog has been resized.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnResizeStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the dialog is being resized.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnResize(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the dialog is being resized.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnOpen(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the dialog is opened.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnFocus(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the dialog gains focus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnDragStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered after the dialog has been dragged.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnDragStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered at the beginning of the dialog being dragged
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnDrag(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the dialog is dragged.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the dialog is closed.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnClose(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered when the dialog is closed.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.OnBeforeClose(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the dialog is closed.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new dialog given an element using
+ default configuration settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.DialogConfiguration)">
+<summary>
+ Create a new dialog using the given element
+ and configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.MoveToTop">
+<summary>
+ Move the dialog to the top of the dialogs stack.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.IsOpen">
+<summary>
+ Returns whether the dialog is open or not.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Enable">
+<summary>
+ Enables the dialog.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Disable">
+<summary>
+ Disables the dialog.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Destroy">
+<summary>
+ Remove the dialog functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Dialog.Close">
+<summary>
+ Close dialog.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Draggable.Widget">
+<summary>
+ Returns the .ui-draggable element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Option(IntelliFactory.WebSharper.JQueryUI.DraggableConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Option(System.String)">
+<summary>
+ Gets a draggable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Option(System.String,System.Object)">
+<summary>
+ Sets a draggable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DraggableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when dragging stops.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DraggableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when dragging starts.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.OnDrag(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DraggableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during dragging.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DraggableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when dragging is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new draggable using the default
+ configuration settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.DraggableConfiguration)">
+<summary>
+ Creates a new draggabel object given an element and a
+ configuration settings object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Enable">
+<summary>
+ Enables the draggable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Disable">
+<summary>
+ Disables the draggable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Draggable.Destroy">
+<summary>
+ Removes draggable functionality completely.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onOver(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event is triggered when an accepted draggable is dragged &apos;over&apos; (within the tolerance of) this droppable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onOut(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when an accepted draggable is dragged out (within the tolerance of) this droppable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onDrop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when an accepted draggable is dropped &apos;over&apos; (within the tolerance of) this droppable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onDeactivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered any time an accepted draggable stops dragging.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ This event is triggered when droppable is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.onActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered any time an accepted draggable starts dragging.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Droppable.Widget">
+<summary>
+ Returns the .ui-droppable element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Option(IntelliFactory.WebSharper.JQueryUI.DroppableConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Option(System.String)">
+<summary>
+ Gets droppable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Option(System.String,System.Object)">
+<summary>
+ Sets droppable option.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.OnOut(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when an accepted draggable is dragged out (within the tolerance of) this droppable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.OnDrop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when an accepted draggable is dropped &apos;over&apos;
+ (within the tolerance of) this droppable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.OnDeactivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered any time an accepted draggable is deactivated.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ This event is triggered when droppable is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.OnActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.DroppableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered any time an accepted draggable stops dragging.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new droppable object using the
+ default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.DroppableConfiguration)">
+<summary>
+ Creates a new droppable object from the given object and a
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Enable">
+<summary>
+ Enables droppable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Disable">
+<summary>
+ Disables droppable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Droppable.Destroy">
+<summary>
+ Removes droppable functionality completely.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Menu.Widget">
+<summary>
+ Returns the .ui-menu element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.SelectPage(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Selects the currently active menu item, collapses all sub-menus and triggers the menu&apos;s select event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.SelectPage">
+<summary>
+ Selects the currently active menu item, collapses all sub-menus and triggers the menu&apos;s select event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Refresh">
+<summary>
+ Initializes sub-menus and menu items that have not already been initialized. New menu items, including sub-menus can be added to the menu or all of the contents of the menu can be replaced and then initialized with the refresh() method.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.PreviousPage(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Moves active state to first menu item below the bottom of a scrollable menu or the last item if not scrollable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.PreviousPage">
+<summary>
+ Moves active state to first menu item below the bottom of a scrollable menu or the last item if not scrollable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Previous(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Moves active state to previous menu item.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Previous">
+<summary>
+ Moves active state to previous menu item.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Option(IntelliFactory.WebSharper.JQueryUI.MenuConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Option(System.String)">
+<summary>
+ Gets menu option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Option(System.String,System.Object)">
+<summary>
+ Sets menu option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.OnSelect(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.JQuery,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Triggered when a menu item is selected.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.OnFocus(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.JQuery,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Triggered before the menu gains focus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Triggered before the menu is closed.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.OnBlur(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.JQuery,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Triggered after the menu loses focus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.NextPage(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Moves active state to first menu item below the bottom of a scrollable menu or the last item if not scrollable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.NextPage">
+<summary>
+ Moves active state to first menu item below the bottom of a scrollable menu or the last item if not scrollable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Next(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Moves active state to next menu item.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Next">
+<summary>
+ Moves active state to next menu item.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new menu given an element using
+ default configuration settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.MenuConfiguration)">
+<summary>
+ Create a new menu using the given element
+ and configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.IsLastItem">
+<summary>
+ Returns a boolean value stating whether or not the currently active item is the last item in the menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.IsFirstItem">
+<summary>
+ Returns a boolean value stating whether or not the currently active item is the first item in the menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Focus(IntelliFactory.WebSharper.JQuery.Event,IntelliFactory.WebSharper.JQuery.JQuery)">
+<summary>
+ Activates a particular menu item, begins opening any sub-menu if present and triggers the menu&apos;s focus event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Focus(IntelliFactory.WebSharper.JQuery.JQuery)">
+<summary>
+ Activates a particular menu item, begins opening any sub-menu if present and triggers the menu&apos;s focus event.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Expand(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Opens the sub-menu below the currently active item, if one exists.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Expand">
+<summary>
+ Opens the sub-menu below the currently active item, if one exists.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Enable">
+<summary>
+ Enables the menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Disable">
+<summary>
+ Disables the menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Destroy">
+<summary>
+ Remove the menu functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.CollapseAll(IntelliFactory.WebSharper.JQuery.Event,System.Boolean)">
+<summary>
+ Closes all open sub-menus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.CollapseAll(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Closes all open sub-menus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.CollapseAll">
+<summary>
+ Closes all open sub-menus.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Collapse(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Closes the currently active sub-menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Collapse">
+<summary>
+ Closes the currently active sub-menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Blur(IntelliFactory.WebSharper.JQuery.Event)">
+<summary>
+ Removes focus from the menu.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Menu.Blur">
+<summary>
+ Removes focus from the menu.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Position.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new position object given an element
+ using the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Position.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.PositionConfiguration)">
+<summary>
+ Creates a new position object given an element and a
+ configuration object.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Progressbar.Value(System.Int32)">
+<summary>
+ Gets or sets the value of the progressbar.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.setValue(System.Int32)">
+<summary>
+ Sets the value of the progressbar.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Progressbar.Widget">
+<summary>
+ Returns the .ui-progressbar element.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Progressbar.Value">
+<summary>
+ Gets or sets the value of the progressbar.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.getValue">
+<summary>
+ Gets the value of the progressbar.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.Option(System.String)">
+<summary>
+ Gets a progressbar option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.Option(System.String,System.Object)">
+<summary>
+ Sets a progressbar option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the progressbar is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.OnComplete(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ This event is triggered when the value of the progressbar reaches the maximum value of 100.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.OnChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the value of the progressbar changes.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.New">
+<summary>
+ Creates a new progressbar based on an empty Div element
+ and the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.New(IntelliFactory.WebSharper.JQueryUI.ProgressbarConfiguration)">
+<summary>
+ Creates a new progressbar based on an
+ empty Div element and the given a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new progressbar given an element using
+ the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.ProgressbarConfiguration)">
+<summary>
+ Creates a new progressbar given an element and a
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.Enable">
+<summary>
+ Enables the progressbar functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.Disable">
+<summary>
+ Disables the progressbar functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Progressbar.Destroy">
+<summary>
+ Removes the progressbar functionality completely.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Resizable.Widget">
+<summary>
+ Returns the .ui-resizable element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Option(IntelliFactory.WebSharper.JQueryUI.ResizableConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Option(System.String,System.Object)">
+<summary>
+ Sets a resizable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Option(System.String)">
+<summary>
+ Gets a resizable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.ResizableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered at the end of a resize operation.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.ResizableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered at the start of a resize operation.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.OnResize(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.ResizableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during resizing.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.ResizableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered at the creation of a resizable.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new resizable object using the default
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.ResizableConfiguration)">
+<summary>
+ Creates a new resizable object given an element and a
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Enable">
+<summary>
+ Enables resizable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Disable">
+<summary>
+ Disables resizable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Resizable.Destroy">
+<summary>
+ Removes resizable functionality.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Selectable.Widget">
+<summary>
+ Returns the .ui-selectable element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Refresh">
+<summary>
+ Refreshes the position and size of each selectee element.
+ This method can be used to manually recalculate the position
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Option(IntelliFactory.WebSharper.JQueryUI.SelectableConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Option(System.String)">
+<summary>
+ Gets selectable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Option(System.String,System.Object)">
+<summary>
+ Sets selectable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnUnselecting(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Element,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during the select operation,
+ on each element removed from the selection.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnUnselected(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Element,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event is triggered at the end of the select operation,
+ on each element removed from the selection.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered at the end of the select operation.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered at the beginning of the select operation.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnSelecting(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Element,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during the select operation,
+ on each element added to the selection.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnSelected(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Element,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered at the end of the select operation,
+ on each element added to the selection.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.Html.Element,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ This event is triggered when selectable is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new selectable object using the default
+ configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.SelectableConfiguration)">
+<summary>
+ Creates a new selectable object given an element and
+ a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Enable">
+<summary>
+ Enables the selectable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Disable">
+<summary>
+ Disables the selectable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Selectable.Destroy">
+<summary>
+ Removes the selectable functionality.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Slider.Values(System.Int32[])">
+<summary>
+ Gets or sets the slider value.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Slider.Value(System.Int32)">
+<summary>
+ Gets or sets the slider value.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Slider.Widget">
+<summary>
+ Returns the .ui-slider element.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Slider.Values">
+<summary>
+ Gets or sets the slider value.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Slider.Value">
+<summary>
+ Gets or sets the slider value.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.Option(System.String)">
+<summary>
+ Gets a slider option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.Option(System.String,System.Object)">
+<summary>
+ Sets a slider option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the user stops sliding.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the user starts sliding.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.OnSlide(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered on every mouse move during slide.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.OnChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the slider changes.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.New">
+<summary>
+ Creates a new slider using the default configuration
+ settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.New(IntelliFactory.WebSharper.JQueryUI.SliderConfiguration)">
+<summary>
+ Creates a new slider given a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.Enable">
+<summary>
+ Enables the slider functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.Disable">
+<summary>
+ Disables the slider functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Slider.Destroy">
+<summary>
+ Removes the slider functionality completly.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Sortable.Widget">
+<summary>
+ Returns the .ui-sortable element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.ToArray``1">
+<summary>
+ Serializes the sortable&apos;s item id&apos;s into an array of string.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Serialize(System.Object)">
+<summary>
+ Serializes the sortable&apos;s item id&apos;s into a form/ajax submittable string.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.RefreshPositions">
+<summary>
+ Refresh the cached positions of the sortables&apos; items.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Refresh">
+<summary>
+ Refreshes the sortable items. Custom trigger the
+ reloading of all sortable items, causing new items to be recognized.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Option(IntelliFactory.WebSharper.JQueryUI.SortableConfiguration)">
+<summary>
+ Sets one or more options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Option">
+<summary>
+ Gets all options.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Option(System.String)">
+<summary>
+ Gets sortable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Option(System.String,System.Object)">
+<summary>
+ Sets sortable option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnUpdate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when the user stopped sorting and the DOM position has changed.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when sorting has stopped.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered triggered when sorting starts.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnSort(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during sorting.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnRemove(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a sortable item has been dragged out from the list and into another.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnReceive(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a connected sortable list has received an item from another list.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnOver(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a sortable item is moved into a connected list.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnOut(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a sortable item is moved away from a connected list.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered triggered when sortable is created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during sorting, but only when the DOM position has changed.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnBeforeStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when sorting stops, but when the placeholder/helper is still available.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.OnActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.SortableEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when using connected lists, every connected list on drag start receives it.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.New(IntelliFactory.WebSharper.Html.Element)">
+<summary>
+ Creates a new sortable given an element using
+ the default configuration settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.New(IntelliFactory.WebSharper.Html.Element,IntelliFactory.WebSharper.JQueryUI.SortableConfiguration)">
+<summary>
+ Creates a new sortable object given an element and a
+ configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Enable">
+<summary>
+ Enables the sortable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Disable">
+<summary>
+ Disables the sortable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Destroy">
+<summary>
+ Removes the sortable functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Sortable.Cancel">
+<summary>
+ Cancels a change in the current sortable and reverts it back to
+ how it was before the current sort started. Useful in the stop
+ and receive callback functions.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Spinner.Value(System.Int32)">
+<summary>
+ Gets or sets the spinner value.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Spinner.Widget">
+<summary>
+ Returns the .ui-spinner element.
+</summary>
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Spinner.Value">
+<summary>
+ Gets or sets the spinner value.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.StepUp(System.Int32)">
+<summary>
+ Increments the value by the specified number of steps.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.StepUp">
+<summary>
+ Increments the value by the specified number of steps.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.StepDown(System.Int32)">
+<summary>
+ Decrements the value by the specified number of steps.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.StepDown">
+<summary>
+ Decrements the value by the specified number of steps.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.PageUp(System.Int32)">
+<summary>
+ Increments the value by the specified number of pages, as defined by the page option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.PageUp">
+<summary>
+ Increments the value by the specified number of pages, as defined by the page option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.PageDown(System.Int32)">
+<summary>
+ Decrements the value by the specified number of pages, as defined by the page option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.PageDown">
+<summary>
+ Decrements the value by the specified number of pages, as defined by the page option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.Option(System.String)">
+<summary>
+ Gets a spinner option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.Option(System.String,System.Object)">
+<summary>
+ Sets a spinner option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.OnStop(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the user stops spinning.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.OnStart(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the user starts sliding.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.OnSpin(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{System.Int32,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered during increment/decrement (to determine direction of spin compare current value with received value).
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.OnChange(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the spinner changes.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.New">
+<summary>
+ Creates a new spinner using the default configuration
+ settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.New(IntelliFactory.WebSharper.JQueryUI.SpinnerConfiguration)">
+<summary>
+ Creates a new spinner given a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.Enable">
+<summary>
+ Enables the spinner functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.Disable">
+<summary>
+ Disables the spinner functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Spinner.Destroy">
+<summary>
+ Removes the spinner functionality completly.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Tabs.Widget">
+<summary>
+ Returns the .ui-tabs element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Tabs.Length">
+<summary>
+ Retrieve the number of tabs of the first matched tab pane.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Remove(System.Int32)">
+<summary>
+ Remove the tab at the specified index.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Refresh">
+<summary>
+ Process any tabs that were added or removed directly in the DOM and recompute the height of the tab panels. Results depend on the content and the heightStyle option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Option(System.String)">
+<summary>
+ Gets a tabs option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Option(System.String,System.Object)">
+<summary>
+ Sets a tabs option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.OnLoad(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.TabsInfo,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a tab is loaded.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.OnCreate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.TabsInfo,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when the tabs are created.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.OnBeforeLoad(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.TabsInfo,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered before a tab is loaded.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.OnBeforeActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.TabsActivateEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a tab is beforeActivated.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.OnActivate(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQueryUI.TabsActivateEvent,Microsoft.FSharp.Core.Unit}})">
+<summary>
+ Event triggered when a tab is activated.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.New(Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,IntelliFactory.WebSharper.Html.Element}})">
+<summary>
+ Creates a new tabs object using the default configuration.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.New(Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,IntelliFactory.WebSharper.Html.Element}},IntelliFactory.WebSharper.JQueryUI.TabsConfiguration)">
+<summary>
+ Creates a new tabs object with panels and titles fromt the given
+ list of name and element pairs and configuration settings object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Load(System.Int32)">
+<summary>
+ Reloads the content of an Ajax tab.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Enable">
+<summary>
+ Enables the tabs functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Disable">
+<summary>
+ Disables the tabs functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Destroy">
+<summary>
+ Removes the tabs functionality completely.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Add(IntelliFactory.WebSharper.Html.Element,System.String)">
+<summary>
+ Add a new tab with the given element and label.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tabs.Add(IntelliFactory.WebSharper.Html.Element,System.String,System.Int32)">
+<summary>
+ Add a new tab with the given element and label
+ inserted at the specified index.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:IntelliFactory.WebSharper.JQueryUI.Tooltip.Widget">
+<summary>
+ Returns the .ui-tooltip element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Option(System.String)">
+<summary>
+ Gets a tooltip option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Option(System.String,System.Object)">
+<summary>
+ Sets a tooltip option.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Open">
+<summary>
+ Opens the tooltip.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.OnOpen(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the tooltip is opened.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.OnClose(Microsoft.FSharp.Core.FSharpFunc{IntelliFactory.WebSharper.JQuery.Event,Microsoft.FSharp.Core.Unit})">
+<summary>
+ Event triggered when the tooltip is closed, triggered on focusout or mouseleave.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.New">
+<summary>
+ Creates a new tooltip using the default configuration
+ settings.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.New(IntelliFactory.WebSharper.JQueryUI.TooltipConfiguration)">
+<summary>
+ Creates a new tooltip given a configuration object.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Enable">
+<summary>
+ Enables the tooltip functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Disable">
+<summary>
+ Disables the tooltip functionality.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Destroy">
+<summary>
+ Removes the tooltip functionality completly.
+</summary>
+</member>
+<member name="M:IntelliFactory.WebSharper.JQueryUI.Tooltip.Close">
+<summary>
+ Closes the tooltip.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.AccordianInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.AutocompleteInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.ButtonInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.Dependencies">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.DraggableInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.DroppableInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.MenuInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.PositionInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.ProgressbarInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.ResizableInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.SelectableInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.SliderInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.SortableInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.SpinnerInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.TabsInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.TooltipInternal">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:IntelliFactory.WebSharper.JQueryUI.Utils">
+
+</member>
+</members>
+</doc>

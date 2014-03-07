@@ -1,0 +1,23 @@
+﻿.inputText
+{
+    width:100px !important
+}
+
+.formlet select
+{
+    width:100px !important
+}
+
+.formlet label
+{
+    width:80px
+}
+
+.ui-widget,
+.ui-widget input, 
+.ui-widget select, 
+.ui-widget textarea, 
+.ui-widget button
+{
+    font-size:0.8em !important
+}
