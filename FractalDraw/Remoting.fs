@@ -68,3 +68,17 @@ module Remoting =
             ]
 
         }
+
+    [<Remote>]
+    let Drawings() =
+        async {
+            return Data.all
+        }
+
+    [<Remote>]
+    let Save(drawing) =
+        async{
+            let name = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm")
+            let added = Data.addDrawing drawing name
+            return added, name
+        }

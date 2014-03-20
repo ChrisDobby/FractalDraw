@@ -63,7 +63,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3228</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3221/</IISUrl>
+          <IISUrl>http://localhost:3224/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -102,8 +102,11 @@
     <Error Condition="!Exists('..\packages\WebSharper.2.5.92.21\build\WebSharper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WebSharper.2.5.92.21\build\WebSharper.targets'))" />
   </Target>
   <ItemGroup>
+    <None Include="App_Data\FractalDraw.mdf" />
+    <None Include="App_Data\FractalDraw_log.ldf" />
     <Compile Include="Fractals.fs" />
     <Compile Include="Forms.fs" />
+    <Compile Include="Data.fs" />
     <Compile Include="Remoting.fs" />
     <Compile Include="Client.fs" />
     <Compile Include="Main.fs" />
@@ -118,6 +121,11 @@
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
     </Reference>
+    <Reference Include="FSharp.Data">
+      <HintPath>..\packages\FSharp.Data.2.0.3\lib\net40\FSharp.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharp.Data.TypeProviders, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="IntelliFactory.WebSharper.JQueryUI">
       <HintPath>..\packages\WebSharper.JQueryUi.2.5.6.185\lib\net40\IntelliFactory.WebSharper.JQueryUI.dll</HintPath>
       <Private>True</Private>
@@ -125,7 +133,10 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
 </Project>
